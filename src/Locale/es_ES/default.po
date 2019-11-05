@@ -3037,7 +3037,7 @@ msgstr "Contáctenos"
 
 #: plugins/CloudTheme/src/Template/Pages/home.ctp:225
 msgid "Get in touch!"
-msgstr ""
+msgstr "Ponerse en contacto"
 
 #: plugins/ModernTheme/src/Template/Cell/Testimonial/display.ctp:6
 msgid "What <b>People Say</b>?"
