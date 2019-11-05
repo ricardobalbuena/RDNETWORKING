@@ -3044,14 +3044,9 @@ msgid "What <b>People Say</b>?"
 msgstr ""
 
 #: plugins/ModernTheme/src/Template/Links/captcha.ctp:117
-msgid ""
-"Signup for an account in just 2 minutes. Once you've completed your "
-"registration just start '.\n"
-"    'creating short URLs and sharing the links with your family and friends."
-msgstr ""
-"Regístrese para obtener una cuenta en tan sólo 2 minutos. Una vez que haya "
-"completado su registro.\n"
-"    puede empezar a crear URLs cortas y compartir los vínculos con su familiares y amigos."
+msgid "Signup for an account in just 2 minutes. Once you've completed your registration'.
+'just start creating short URLs and sharing the links with your family and friends."
+msgstr "Regístrese para obtener una cuenta en tan sólo 2 minutos. Una vez que haya completado su registro. Puede empezar a crear URLs cortas y compartir los vínculos con su familiares y amigos."
 
 #: plugins/ModernTheme/src/Template/Pages/home.ctp:27
 msgid "It's just three steps"
