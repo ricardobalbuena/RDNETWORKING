@@ -2750,9 +2750,10 @@ msgstr "Acortar urls y gana dinero"
 
 #: plugins/CloudTheme/src/Template/Links/captcha.ctp:117
 msgid ""
-"Signup for an account in just 2 minutes. Once you've completed your "
-"registration just start creating short URLs and sharing the links with your "
-"family and friends."
+"Registra una cuenta en tan solo 2 minutos. Una vez completado el "
+"registro.
+Empieza creando enlaces cortos y compartelos con tu "
+"familia y amigos."
 msgstr ""
 "Regístrese para obtener una cuenta en tan sólo 2 minutos. Una vez que haya "
 "completado su El registro sólo empezar a crear URLs cortas y compartir los "
@@ -3045,9 +3046,10 @@ msgstr ""
 
 #: plugins/ModernTheme/src/Template/Links/captcha.ctp:117
 msgid ""
-"Signup for an account in just 2 minutes. Once you've completed your "
-"registration just start '.\n"
-"    'creating short URLs and sharing the links with your family and friends."
+"Regístrese para obtener una cuenta en tan sólo 2 minutos. Una vez que haya "
+"completado su registro.\n"
+"    Empezieze a crear URLs cortas y comparte los
+vínculos con su familiares y amigos."
 msgstr ""
 
 #: plugins/ModernTheme/src/Template/Pages/home.ctp:27
