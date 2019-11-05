@@ -2990,7 +2990,7 @@ msgstr ""
 #: src/Template/Layout/member.ctp:330 src/Template/Member/Forms/support.ctp:8
 #: src/Template/Member/Forms/support.ctp:10 src/Template/Pages/home.ctp:122
 msgid "Support"
-msgstr "Suporte"
+msgstr "Soporte"
 
 #: plugins/CloudTheme/src/Template/Pages/home.ctp:148
 #: plugins/ModernTheme/src/Template/Pages/home.ctp:153

@@ -4411,7 +4411,7 @@ msgstr "E-mail do administrador"
 msgid "The recipient email for the contact form and support requests."
 msgstr ""
 "O e-mail do destinatário para o formulário de contato e solicitações de "
-"suporte."
+"soporte."
 
 #: src/Template/Admin/Options/email.ctp:48
 msgid "Sending Email Settings"
