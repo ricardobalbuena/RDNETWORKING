@@ -2907,7 +2907,7 @@ msgid ""
 msgstr ""
 "El {0} programa de referencia es una gran manera de difundir la palabra de "
 "este gran servicio y para ganar aún más dinero con sus enlaces cortos! "
-"Consulte y amigos recibida {1}% de sus ganancias de por vida!"
+"Consulte y amigos reciba el {1}% de sus ganancias de por vida!"
 
 #: plugins/CloudTheme/src/Template/Pages/home.ctp:100
 #: plugins/ModernTheme/src/Template/Pages/home.ctp:105
@@ -2959,7 +2959,7 @@ msgstr ""
 #: plugins/ModernTheme/src/Template/Pages/home.ctp:133
 #: src/Template/Pages/home.ctp:104
 msgid "Highest Rates"
-msgstr "tarifas más altas"
+msgstr "Las tarifas más altas"
 
 #: plugins/CloudTheme/src/Template/Pages/home.ctp:130
 #: plugins/ModernTheme/src/Template/Pages/home.ctp:135
@@ -3026,7 +3026,7 @@ msgstr ""
 #: plugins/ModernTheme/src/Template/Pages/home.ctp:193
 #: src/Template/Pages/home.ctp:150
 msgid "Registered users"
-msgstr ""
+msgstr "Usuarios registrados"
 
 #: plugins/CloudTheme/src/Template/Pages/home.ctp:224
 #: plugins/ModernTheme/src/Template/Pages/home.ctp:215
@@ -3045,10 +3045,13 @@ msgstr ""
 
 #: plugins/ModernTheme/src/Template/Links/captcha.ctp:117
 msgid ""
+"Signup for an account in just 2 minutes. Once you've completed your "
+"registration just start '.\n"
+"    'creating short URLs and sharing the links with your family and friends."
+msgstr ""
 "Regístrese para obtener una cuenta en tan sólo 2 minutos. Una vez que haya "
 "completado su registro.\n"
 "    puede empezar a crear URLs cortas y compartir los vínculos con su familiares y amigos."
-msgstr ""
 
 #: plugins/ModernTheme/src/Template/Pages/home.ctp:27
 msgid "It's just three steps"
@@ -3074,7 +3077,7 @@ msgstr ""
 #: src/Template/Admin/Activation/index.ctp:5
 #: src/Template/Admin/Activation/index.ctp:7
 msgid "License Activation"
-msgstr "activación de licencia"
+msgstr "Activación de licencia"
 
 #: src/Template/Admin/Activation/index.ctp:19
 msgid "Personal Token"
