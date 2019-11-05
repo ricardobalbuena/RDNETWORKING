@@ -2746,7 +2746,7 @@ msgstr ""
 #: plugins/ModernTheme/src/Template/Links/captcha.ctp:116
 #: src/Template/Links/captcha.ctp:93
 msgid "Shorten URLs and earn money"
-msgstr "Acortar urls y gana dinero"
+msgstr "Acorta urls y gana dinero"
 
 #: plugins/CloudTheme/src/Template/Links/captcha.ctp:117
 msgid ""
