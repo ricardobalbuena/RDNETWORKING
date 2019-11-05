@@ -269,13 +269,13 @@ class UsersController extends AppController
                     // Send activation email
                     $this->getMailer('User')->send('activation', [$user]);
 
-                    $this->Flash->success(__('Your account has been created. Please check your email inbox ' .
-                        'or spam folder to activate your account.'));
+                    $this->Flash->success(__('Su cuenta ha sido creada. Por favor revisar su correo ' .
+                        'o la carpeta de spam para activar su cuenta. (Puede tardar entre 10-15 minutos)'));
 
                     return $this->redirect(['action' => 'signin']);
                 }
 
-                $this->Flash->success(__('Your account has been created.'));
+                $this->Flash->success(__('Su cuenta ha sido creada.'));
 
                 return $this->redirect(['action' => 'signin']);
             }

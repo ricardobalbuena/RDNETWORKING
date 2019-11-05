@@ -2990,7 +2990,7 @@ msgstr ""
 #: src/Template/Layout/member.ctp:330 src/Template/Member/Forms/support.ctp:8
 #: src/Template/Member/Forms/support.ctp:10 src/Template/Pages/home.ctp:122
 msgid "Support"
-msgstr "Suporte"
+msgstr "Soporte"
 
 #: plugins/CloudTheme/src/Template/Pages/home.ctp:148
 #: plugins/ModernTheme/src/Template/Pages/home.ctp:153
@@ -3045,9 +3045,9 @@ msgstr ""
 
 #: plugins/ModernTheme/src/Template/Links/captcha.ctp:117
 msgid ""
-"Signup for an account in just 2 minutes. Once you've completed your "
-"registration just start '.\n"
-"    'creating short URLs and sharing the links with your family and friends."
+"Regístrese para obtener una cuenta en tan sólo 2 minutos. Una vez que haya "
+"completado su registro.\n"
+"    puede empezar a crear URLs cortas y compartir los vínculos con su familiares y amigos."
 msgstr ""
 
 #: plugins/ModernTheme/src/Template/Pages/home.ctp:27
