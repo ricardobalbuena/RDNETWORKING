@@ -2682,7 +2682,7 @@ msgstr "Copyright &copy;"
 #: src/Template/Cell/Link/shorten_member.ctp:26
 #: src/Template/Element/shorten.ctp:27
 msgid "Your URL Here"
-msgstr "Tu URL aquí."
+msgstr "Tu URL aqui"
 
 #: plugins/CloudTheme/src/Template/Layout/captcha.ctp:25
 #: plugins/CloudTheme/src/Template/Layout/front.ctp:21
