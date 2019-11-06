@@ -182,7 +182,7 @@
                 <?php if ((bool)get_option('wallet_enable')) : ?>
                     <li>
                         <a><i class="fa fa-credit-card text-aqua"></i>
-                            <span><b><?= __("Money Wallet") ?></b><br>
+                            <span><b><?= __("Balance en cartera") ?></b><br>
                                 <?= display_price_currency($logged_user->wallet_money) ?>
                             </span>
                         </a>
