@@ -52,7 +52,7 @@ $this->assign('content_title', __('Soporte'));
             <?= $this->Form->control('accept', [
                 'type' => 'checkbox',
                 'label' => "<b>" . __(
-                        "I consent to collect my name and email. For more details check our {0}.",
+                        "Doy mi consentimiento para recopilar mi nombre y correo electrónico. Para más detalles consulte nuestra {0}.",
                         "<a href='" . $this->Url->build('/') . 'pages/privacy' . "' target='_blank'>" .
                         __('Privacy Policy') . "</a>"
                     ) . "</b>",
