@@ -327,7 +327,7 @@
                 </li>
 
                 <li><a href="<?php echo $this->Url->build(['controller' => 'Forms', 'action' => 'support']); ?>"><i
-                                class="fa fa-life-ring"></i> <span><?= __('Support') ?></span></a></li>
+                                class="fa fa-life-ring"></i> <span><?= __('Soporte') ?></span></a></li>
                 <?php if ((bool)get_option('enable_premium_membership')) : ?>
                     <li>
                         <a href="<?php echo $this->Url->build(['controller' => 'Users', 'action' => 'plans']); ?>">
