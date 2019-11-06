@@ -302,7 +302,7 @@ class LinksController extends FrontController
 
         $t = (int)$ad_form_data['t'];
         $diff_seconds = (int)(time() - $t);
-        $counter_value = (int)get_option('counter_value', 27);
+        $counter_value = (int)get_option('counter_value', 5);
 
         if ($diff_seconds < $counter_value) {
             $content = [
