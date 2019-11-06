@@ -6531,7 +6531,7 @@ msgstr ""
 msgid ""
 "This website uses cookies to ensure you get the best experience on our "
 "website. {0}"
-msgstr ""
+msgstr "Esta página utiliza los cookies para asegurar que tengas la mejor experiencia en su visita"
 
 #: src/Template/Element/js_vars.ctp:44
 msgid "Got it!"
