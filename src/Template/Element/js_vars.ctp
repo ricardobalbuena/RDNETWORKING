@@ -40,8 +40,8 @@ $app_vars = [
     'cookie_notification_bar' => (bool)get_option('cookie_notification_bar', 1),
     'cookie_message' => __('Este sitio web utiliza cookies para garantizar que obtenga la mejor experiencia en nuestro sitio web. {0}',
         "<a href='" . build_main_domain_url('/pages/privacy') . "' target='_blank'><b>" .
-        __('Learn more') . "</b></a>"),
-    'cookie_button' => h(__('Got it!')),
+        __('Mas Informacion') . "</b></a>"),
+    'cookie_button' => h(__('Entendido')),
 ];
 ?>
 <script type='text/javascript'>
