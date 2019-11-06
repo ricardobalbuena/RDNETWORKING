@@ -4371,7 +4371,7 @@ msgstr ""
 #: src/Template/Admin/Options/index.ctp:9 src/Template/Layout/admin.ctp:392
 #: src/Template/Layout/admin.ctp:398 src/Template/Layout/member.ctp:311
 msgid "Settings"
-msgstr "ajustes"
+msgstr "Ajustes"
 
 #: src/Template/Admin/Options/email.ctp:23
 msgid "Notifications"
