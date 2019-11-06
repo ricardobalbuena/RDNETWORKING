@@ -148,7 +148,7 @@ $this->assign('content_title', get_option('site_name'));
             <div class="col-sm-4 wow fadeInUp">
                 <div class="feature last">
                     <div class="feature-img"><i class="ms-sprite ms-sprite-f9"></i></div>
-                    <h4 class="feature-heading"><?= __('Soporte') ?></h4>
+                    <h4 class="feature-heading"><?= __('Support') ?></h4>
                     <div
                         class="feature-content"><?= __('A dedicated support team is ready to help with any questions you may have.') ?></div>
                 </div>
