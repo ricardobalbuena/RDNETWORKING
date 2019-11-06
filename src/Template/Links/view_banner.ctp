@@ -44,7 +44,7 @@ $this->assign('og_image', $link->image);
                 <h4><?= __('Your link is almost ready.') ?></h4>
 
                 <span id="countdown" class="countdown">
-                    <span id="timer" class="timer"><?= get_option('counter_value', 5) ?></span><br><?= __('Seconds') ?>
+                    <span id="timer" class="timer"><?= get_option('counter_value', 27) ?></span><br><?= __('Seconds') ?>
                 </span>
 
                 <?php if (!empty($banner_468x60)) : ?>

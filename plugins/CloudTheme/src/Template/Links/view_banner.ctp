@@ -39,7 +39,7 @@ $this->assign('og_image', $link->image);
 
     <span id="countdown" class="countdown">
         <span id="timer" class="timer">
-            <?= get_option('counter_value', 5) ?>
+            <?= get_option('counter_value', 27) ?>
         </span><br><?= __('Seconds') ?>
     </span>
 

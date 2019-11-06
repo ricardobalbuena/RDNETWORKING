@@ -29,7 +29,7 @@ $this->assign('content_title', __('Create Popup Campaign'));
                 <li><?= __('Unique within a 24 hour time frame') ?></li>
                 <li><?= __('They will have JavaScript enabled') ?></li>
                 <li><?= __('They will have Cookies enabled') ?></li>
-                <li><?= __('Must view your website for at least {0} seconds', h(get_option('counter_value', 5))) ?></li>
+                <li><?= __('Must view your website for at least {0} seconds', h(get_option('counter_value', 27))) ?></li>
             </ul>
 
             <p><?= __('You may receive traffic that does not meet this criteria, but you will never be ' .
