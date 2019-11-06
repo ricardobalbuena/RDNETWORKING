@@ -2749,14 +2749,10 @@ msgid "Shorten URLs and earn money"
 msgstr "Acorta urls y gana dinero"
 
 #: plugins/CloudTheme/src/Template/Links/captcha.ctp:117
-msgid ""
-"Signup for an account in just 2 minutes. Once you've completed your "
-"registration just start creating short URLs and sharing the links with your "
-"family and friends."
-msgstr ""
-"Regístrese para obtener una cuenta en tan sólo 2 minutos. Una vez que haya "
-"completado su El registro sólo empezar a crear URLs cortas y compartir los "
-"vínculos con su familiares y amigos."
+msgid "Signup for an account in just 2 minutes. Once you've completed your registration just start '.
+'creating short URLs and sharing the links with your family and friends."
+msgstr "Regístrese para obtener una cuenta en tan sólo 2 minutos. Una vez que haya completado su registro. Puede empezar a crear URLs cortas y compartir los vínculos con su familiares y amigos."
+
 
 #: plugins/CloudTheme/src/Template/Links/view_banner.ctp:38
 #: plugins/ModernTheme/src/Template/Links/view_banner.ctp:38
@@ -7045,13 +7041,10 @@ msgstr ""
 msgid "Renew"
 msgstr ""
 
-#: src/Template/Links/captcha.ctp:94
-msgid ""
-"Signup for an account in just 2 minutes. Once you've completed your "
-"registration'.\n"
-"                    'just start creating short URLs and sharing the links "
-"with your family and friends."
-msgstr ""
+#: src/Template/Links/captcha.ctp:117
+msgid "Signup for an account in just 2 minutes. Once you've completed your registration just start '.
+'creating short URLs and sharing the links with your family and friends."
+msgstr "Regístrese para obtener una cuenta en tan sólo 2 minutos. Una vez que haya completado su registro. Puede empezar a crear URLs cortas y compartir los vínculos con su familiares y amigos."
 
 #: src/Template/Member/Campaigns/create_banner.ctp:25
 #: src/Template/Member/Campaigns/create_interstitial.ctp:25
