@@ -114,7 +114,6 @@ $this->assign('og_image', $link->image);
         ) ?></p>
 
     <h3><?= __('Shorten URLs and earn money') ?></h3>
-    <p><?= __("Signup for an account in just 2 minutes. Once you've completed your registration just start " .
-            "creating short URLs and sharing the links with your family and friends.") ?></p>
+    <p><?= __("Signup for an account in just 2 minutes. Once you've completed your registration just start " ."creating short URLs and sharing the links with your family and friends.") ?></p>
 
 </div>
