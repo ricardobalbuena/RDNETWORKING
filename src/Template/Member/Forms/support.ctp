@@ -5,9 +5,9 @@
  */
 ?>
 <?php
-$this->assign('title', __('Support'));
+$this->assign('title', __('Soporte'));
 $this->assign('description', '');
-$this->assign('content_title', __('Support'));
+$this->assign('content_title', __('Soporte'));
 
 ?>
 
