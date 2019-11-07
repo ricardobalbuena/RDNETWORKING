@@ -144,7 +144,7 @@ $this->assign('content_title', __('Dashboard'));
                         <th><?= __('Date') ?></th>
                         <th><?= __('Views') ?></th>
                         <th><?= __('Link Earnings') ?></th>
-                        <th><?= __('Daily CPM') ?></th>
+                        <th><?= __('CPM Diario') ?></th>
                         <th><?= __('Referral Earnings') ?></th>
                     </tr>
                     </thead>
