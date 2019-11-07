@@ -109,11 +109,11 @@ img {
 
 /** Logo **/
 .navbar-brand.logo-image {
-    padding: 0 15px;
+    padding: 0 30px;
 }
 
 .navbar-brand.logo-image img {
-    height: 100%;
+    height: 200%;
 }
 
 /*
