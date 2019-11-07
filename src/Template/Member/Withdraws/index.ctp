@@ -57,7 +57,7 @@ $withdrawal_methods = array_column_polyfill(get_withdrawal_methods(), 'name', 'i
         <?php if ((bool)get_option('enable_withdraw', 1)) : ?>
             <div class="text-center">
                 <?= $this->Form->postLink(
-                    __('Withdraw'),
+                    __('Retirar'),
                     ['action' => 'request'],
                     ['confirm' => __('Are you sure?'), 'class' => 'btn btn-success btn-lg']
                 ); ?>
