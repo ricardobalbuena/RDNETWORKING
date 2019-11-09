@@ -182,7 +182,7 @@
                 <?php if ((bool)get_option('wallet_enable')) : ?>
                     <li>
                         <a><i class="fa fa-credit-card text-aqua"></i>
-                            <span><b><?= __("Money Wallet") ?></b><br>
+                            <span><b><?= __("Balance en cartera") ?></b><br>
                                 <?= display_price_currency($logged_user->wallet_money) ?>
                             </span>
                         </a>
@@ -208,7 +208,7 @@
                 </li>
 
                 <li><a href="<?php echo $this->Url->build(['controller' => 'Withdraws', 'action' => 'index']); ?>"><i
-                                class="fa fa-dollar"></i> <span><?= __('Withdraw') ?></span></a></li>
+                                class="fa fa-dollar"></i> <span><?= __('Retiros') ?></span></a></li>
 
                 <?php if (
                     $logged_user_plan->api_quick ||
@@ -218,7 +218,7 @@
                     $logged_user_plan->bookmarklet
                 ) : ?>
                     <li class="treeview">
-                        <a href="#"><i class="fa fa-wrench"></i> <span><?= __('Tools') ?></span> <i
+                        <a href="#"><i class="fa fa-wrench"></i> <span><?= __('Herramientas') ?></span> <i
                                     class="fa fa-angle-left pull-right"></i></a>
                         <ul class="treeview-menu">
                             <?php if ($logged_user_plan->api_quick) : ?>
@@ -308,7 +308,7 @@
                 <?php endif; ?>
 
                 <li class="treeview">
-                    <a href="#"><i class="fa fa-gears"></i> <span><?= __('Settings') ?></span> <i
+                    <a href="#"><i class="fa fa-gears"></i> <span><?= __('Ajustes') ?></span> <i
                                 class="fa fa-angle-left pull-right"></i></a>
                     <ul class="treeview-menu">
                         <li><a href="<?php echo $this->Url->build([
@@ -327,7 +327,7 @@
                 </li>
 
                 <li><a href="<?php echo $this->Url->build(['controller' => 'Forms', 'action' => 'support']); ?>"><i
-                                class="fa fa-life-ring"></i> <span><?= __('Support') ?></span></a></li>
+                                class="fa fa-life-ring"></i> <span><?= __('Soporte') ?></span></a></li>
                 <?php if ((bool)get_option('enable_premium_membership')) : ?>
                     <li>
                         <a href="<?php echo $this->Url->build(['controller' => 'Users', 'action' => 'plans']); ?>">

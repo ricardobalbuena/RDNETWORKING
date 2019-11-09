@@ -3003,7 +3003,7 @@ msgstr ""
 #: src/Template/Layout/member.ctp:330 src/Template/Member/Forms/support.ctp:8
 #: src/Template/Member/Forms/support.ctp:10 src/Template/Pages/home.ctp:122
 msgid "Support"
-msgstr "Suporte"
+msgstr "Soporte"
 
 #: plugins/CloudTheme/src/Template/Pages/home.ctp:148
 #: plugins/ModernTheme/src/Template/Pages/home.ctp:153
@@ -4411,7 +4411,7 @@ msgstr "E-mail do administrador"
 msgid "The recipient email for the contact form and support requests."
 msgstr ""
 "O e-mail do destinatário para o formulário de contato e solicitações de "
-"suporte."
+"Soporte."
 
 #: src/Template/Admin/Options/email.ctp:48
 msgid "Sending Email Settings"

@@ -75,7 +75,7 @@ $this->Form->setTemplates([
         <?= $this->Form->control('accept', [
             'type' => 'checkbox',
             'label' => "<b>" . __(
-                    "I consent to having this website store my submitted information so they can respond to my inquiry"
+                    "Doy mi consentimiento para que este sitio web almacene la información enviada para que puedan responder a mi consulta"
                 ) . "</b>",
             'escape' => false,
             'required' => true

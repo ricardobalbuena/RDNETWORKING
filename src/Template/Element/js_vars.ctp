@@ -38,10 +38,10 @@ $app_vars = [
     'force_disable_adblock' => h(get_option('force_disable_adblock', 0)),
     'please_disable_adblock' => h(__("Please disable Adblock to proceed to the destination page.")),
     'cookie_notification_bar' => (bool)get_option('cookie_notification_bar', 1),
-    'cookie_message' => __('This website uses cookies to ensure you get the best experience on our website. {0}',
+    'cookie_message' => __('Este sitio web utiliza cookies para garantizar que obtenga la mejor experiencia en nuestro sitio web. {0}',
         "<a href='" . build_main_domain_url('/pages/privacy') . "' target='_blank'><b>" .
-        __('Learn more') . "</b></a>"),
-    'cookie_button' => h(__('Got it!')),
+        __('Mas Informacion') . "</b></a>"),
+    'cookie_button' => h(__('Entendido')),
 ];
 ?>
 <script type='text/javascript'>
