@@ -12,7 +12,7 @@ class UserMailer extends Mailer
             ->setProfile(get_option('email_method', 'default'))
             ->setFrom([get_option('email_from', 'no_reply@localhost') => get_option('email_from_name')])
             ->setTo($user->email)
-            ->setSubject(__("New Account"))
+            ->setSubject(__("Nueva cuenta"))
             ->setViewVars([
                 'username' => $user->username,
                 'activation_key' => $user->activation_key,
@@ -28,7 +28,7 @@ class UserMailer extends Mailer
             ->setProfile(get_option('email_method', 'default'))
             ->setFrom([get_option('email_from', 'no_reply@localhost') => get_option('email_from_name')])
             ->setTo($user->temp_email)
-            ->setSubject(__("Change Email"))
+            ->setSubject(__("Cambio de Email"))
             ->setViewVars([
                 'username' => $user->username,
                 'activation_key' => $user->activation_key,
@@ -44,7 +44,7 @@ class UserMailer extends Mailer
             ->setProfile(get_option('email_method', 'default'))
             ->setFrom([get_option('email_from', 'no_reply@localhost') => get_option('email_from_name')])
             ->setTo($user->email)
-            ->setSubject(__("Password Reset"))
+            ->setSubject(__("Reestablecimeinto de contraseña"))
             ->setViewVars([
                 'username' => $user->username,
                 'activation_key' => $user->activation_key,
