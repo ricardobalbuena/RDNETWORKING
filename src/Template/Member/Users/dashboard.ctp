@@ -8,9 +8,9 @@
  */
 ?>
 <?php
-$this->assign('title', __('Dashboard'));
+$this->assign('title', __('Panel'));
 $this->assign('description', '');
-$this->assign('content_title', __('Dashboard'));
+$this->assign('content_title', __('Panel'));
 ?>
 
     <div class="text-center">
@@ -106,7 +106,7 @@ $this->assign('content_title', __('Dashboard'));
     <div class="box box-primary">
         <div class="box-header with-border">
             <i class="fa fa-bullhorn"></i>
-            <h3 class="box-title"><?= __("Announcements") ?></h3>
+            <h3 class="box-title"><?= __("Avisos") ?></h3>
         </div>
         <div class="box-body chat">
             <?php foreach ($announcements as $announcement) : ?>

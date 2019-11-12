@@ -124,8 +124,8 @@ $this->assign('content_title', __('Profile'));
             <div class="col-sm-6">
                 <table class="table table-hover table-striped">
                     <tr>
-                        <th><?= __('Withdraw Method') ?></th>
-                        <th><?= __('Minimum Withdrawal Amount') ?></th>
+                        <th><?= __('Metodo para retiro') ?></th>
+                        <th><?= __('Balance minimo para retirar') ?></th>
                     </tr>
                     <?php foreach (get_withdrawal_methods() as $method) : ?>
                         <tr>
