@@ -2,9 +2,9 @@
 /**
  * @var \App\View\AppView $this
  */
-$this->assign('title', __('Quick Link'));
+$this->assign('title', __('Enlace Rapido'));
 $this->assign('description', '');
-$this->assign('content_title', __('Quick Link'));
+$this->assign('content_title', __('Enlace Rapido'));
 
 ?>
 

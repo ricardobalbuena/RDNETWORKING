@@ -225,13 +225,13 @@
                                 <li><a href="<?php echo $this->Url->build([
                                         'controller' => 'Tools',
                                         'action' => 'quick',
-                                    ]); ?>"><?= __('Quick Link') ?></a></li>
+                                    ]); ?>"><?= __('Enlace Rapido') ?></a></li>
                             <?php endif; ?>
                             <?php if ($logged_user_plan->api_mass) : ?>
                                 <li><a href="<?php echo $this->Url->build([
                                         'controller' => 'Tools',
                                         'action' => 'massShrinker',
-                                    ]); ?>"><?= __('Mass Shrinker') ?></a></li>
+                                    ]); ?>"><?= __('Acortador Masivo') ?></a></li>
                             <?php endif; ?>
                             <?php if ($logged_user_plan->api_full) : ?>
                                 <li><a href="<?php echo $this->Url->build([

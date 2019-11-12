@@ -3,9 +3,9 @@
  * @var \App\View\AppView $this
  * @var \App\Model\Entity\Link $link
  */
-$this->assign('title', __('Mass Shrinker'));
+$this->assign('title', __('Acortador Masivo'));
 $this->assign('description', '');
-$this->assign('content_title', __('Mass Shrinker'));
+$this->assign('content_title', __('Acortador Masivo'));
 
 ?>
 
