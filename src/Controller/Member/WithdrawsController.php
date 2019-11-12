@@ -78,7 +78,7 @@ class WithdrawsController extends AppMemberController
 
         if ($data['amount'] < $minimum_withdrawal_amount) {
             $this->Flash->error(__(
-                'Withdraw amount should be equal or greater than {0}.',
+                'El balance para retirar tiene que ser mayor o igual a {0}.',
                 display_price_currency($minimum_withdrawal_amount)
             ));
 
