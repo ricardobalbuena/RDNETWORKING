@@ -243,7 +243,7 @@
                                 <li><a href="<?php echo $this->Url->build([
                                         'controller' => 'Tools',
                                         'action' => 'api',
-                                    ]); ?>"><?= __('Developers API') ?></a></li>
+                                    ]); ?>"><?= __('API Desarrolladores') ?></a></li>
                             <?php endif; ?>
                             <?php if ($logged_user_plan->bookmarklet) : ?>
                                 <li><a href="<?php echo $this->Url->build([

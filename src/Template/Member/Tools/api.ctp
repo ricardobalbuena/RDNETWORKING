@@ -2,9 +2,9 @@
 /**
  * @var \App\View\AppView $this
  */
-$this->assign('title', __('Developers API'));
+$this->assign('title', __('API Desarrolladores'));
 $this->assign('description', '');
-$this->assign('content_title', __('Developers API'));
+$this->assign('content_title', __('API Desarrolladores'));
 ?>
 
 <div class="box box-primary">
