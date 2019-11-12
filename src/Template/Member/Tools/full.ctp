@@ -2,9 +2,9 @@
 /**
  * @var \App\View\AppView $this
  */
-$this->assign('title', __('Full Page Script'));
+$this->assign('title', __('Script de pagina completa'));
 $this->assign('description', '');
-$this->assign('content_title', __('Full Page Script'));
+$this->assign('content_title', __('Script de pagina completa'));
 ?>
 
 <div class="box box-primary">
@@ -16,7 +16,7 @@ $this->assign('content_title', __('Full Page Script'));
                 get_option('site_name')
             ) ?></p>
 
-        <h3 class="page-header"><?= __('Full Page Script Code Generator') ?></h3>
+        <h3 class="page-header"><?= __('Generador de Script para pagina completa') ?></h3>
 
         <?= $this->Form->create(null, [
             'id' => 'full-page-script-generator',
@@ -160,4 +160,3 @@ $this->assign('content_title', __('Full Page Script'));
   });
 </script>
 <?php $this->end(); ?>
-

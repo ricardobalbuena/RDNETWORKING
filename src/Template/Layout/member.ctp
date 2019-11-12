@@ -237,7 +237,7 @@
                                 <li><a href="<?php echo $this->Url->build([
                                         'controller' => 'Tools',
                                         'action' => 'full',
-                                    ]); ?>"><?= __('Full Page Script') ?></a></li>
+                                    ]); ?>"><?= __('Script de pagina completa') ?></a></li>
                             <?php endif; ?>
                             <?php if ($logged_user_plan->api_developer) : ?>
                                 <li><a href="<?php echo $this->Url->build([
