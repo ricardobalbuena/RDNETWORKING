@@ -126,9 +126,9 @@ $withdrawal_methods = array_column_polyfill(get_withdrawal_methods(), 'name', 'i
         <ul>
             <li><?= __("Pending: The payment is being checked by our team.") ?></li>
             <li><?= __("Approved: The payment has been approved and is waiting to be sent.") ?></li>
-            <li><?= __("Complete: The payment has been successfully sent to your payment account.") ?></li>
-            <li><?= __("Cancelled: The payment has been cancelled.") ?></li>
-            <li><?= __("Returned: The payment has been returned to your account.") ?></li>
+            <li><?= __("Completo: el pago se ha enviado correctamente a su cuenta de pago.") ?></li>
+            <li><?= __("Cancelado: el pago ha sido cancelado.") ?></li>
+            <li><?= __("Devuelto: el pago ha sido devuelto a su cuenta.") ?></li>
         </ul>
     </div><!-- /.box-body -->
 </div>
