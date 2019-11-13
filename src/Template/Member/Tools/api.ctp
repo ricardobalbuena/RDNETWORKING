@@ -32,15 +32,15 @@ $this->assign('content_title', __('API Desarrolladores'));
             <?= $this->Url->build('/', true); ?>api?api=<b><?= $logged_user->api_token ?></b>&url=<b><?= urlencode('yourdestinationlink.com') ?></b>&alias=<b>CustomAlias</b>
         </div>
 
-        <p><?= __('You will get a JSON response like the following') ?></p>
+        <p><?= __('Obtendrá una respuesta JSON como la siguiente') ?></p>
 
         <div class="well">
             {"status":"success","shortenedUrl":"<?= json_encode($this->Url->build('/', true) . 'xxxxx') ?>"}
         </div>
 
-        <p><?= __('If you want a TEXT response just add <b>&format=text</b> at the end of your request as ' .
-                'the below example. This will return just the short link. Note that if an error occurs, it will not ' .
-                'output anything.') ?></p>
+        <p><?= __('Si desea una respuesta de TEXTO simplemente agregue <b>&format=text</b> al final de su solicitud como ' .
+                'el siguiente ejemplo. Esto devolverá solo el enlace corto. Tenga en cuenta que si se produce un error, no ' .
+                'salida de cualquier cosa.') ?></p>
 
         <div class="well">
             <?= $this->Url->build('/', true); ?>api?api=<b><?= $logged_user->api_token ?></b>&url=<b><?= urlencode('yourdestinationlink.com') ?></b>&alias=<b>CustomAlias</b>&format=<b>text</b>
@@ -71,17 +71,17 @@ $this->assign('content_title', __('API Desarrolladores'));
 
         <div class="alert alert-info">
             <h4><i class="icon fa fa-info"></i> <?= __("Note") ?></h4>
-            <?= __("api & url are required fields and the other fields like alias, format & type are optional.") ?>
+            <?= __("api y url son campos obligatorios y los otros campos como alias, formato y tipo son opcionales.") ?>
         </div>
 
         <p><?= __("That's it :)") ?></p>
 
-        <h3><?= __("Using the API in PHP") ?></h3>
+        <h3><?= __("Usando el API en PHP") ?></h3>
 
-        <p><?= __("To use the API in your PHP application, you need to send a GET request via " .
-                "file_get_contents or cURL. Please check the below sample examples using file_get_contents") ?></p>
+        <p><?= __("Para usar la API en su aplicación PHP, debe enviar una solicitud GET a través de " .
+                "file_get_contents o cURL. Por favor, consulte los ejemplos de ejemplo a continuación utilizando file_get_contents") ?></p>
 
-        <p><?= __("Using JSON Response") ?></p>
+        <p><?= __("Usando respuestas JSON ") ?></p>
 
         <div class="well">
             $long_url = urlencode('yourdestinationlink.com');<br>
@@ -95,7 +95,7 @@ $this->assign('content_title', __('API Desarrolladores'));
             }
         </div>
 
-        <p><?= __("Using Plain Text Response") ?></p>
+        <p><?= __("Usando una respuesta con un texto plano") ?></p>
 
         <div class="well">
             $long_url = urlencode('yourdestinationlink.com');<br>

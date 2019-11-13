@@ -99,7 +99,7 @@ $withdrawal_methods = array_column_polyfill(get_withdrawal_methods(), 'name', 'i
                     <?php endif; ?>
                     <th><?= __('Total Amount') ?></th>
                     <th><?= __('Withdrawal Method') ?></th>
-                    <th><?= __('Withdrawal Account') ?></th>
+                    <th><?= __('Cuenta de Retiro') ?></th>
                 </tr>
                 </thead>
                 <?php foreach ($withdraws as $withdraw) : ?>

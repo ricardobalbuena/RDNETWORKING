@@ -139,7 +139,7 @@ $this->assign('content_title', __('Profile'));
 
         <?=
         $this->Form->control('withdrawal_account', [
-            'label' => __('Withdrawal Account'),
+            'label' => __('Cuenta de Retiro'),
             'class' => 'form-control',
             'type' => 'textarea',
             'required' => false,

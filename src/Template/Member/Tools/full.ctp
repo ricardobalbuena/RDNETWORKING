@@ -61,9 +61,9 @@ $this->assign('content_title', __('Script de pagina completa'));
                     'required' => true,
                     'templateVars' => [
                         'help' => __(
-                            'Include: Use this option if you want to short only links from the following domains list.<br>' .
-                            'Exclude: Use this option if you wish to short every link on your website but exclude only the links ' .
-                            'from the following domains list.'
+                            'Incluir: use esta opción si desea acortar solo los enlaces de la siguiente lista de dominios.<br>' .
+                            'Excluir: use esta opción si desea acortar todos los enlaces de su sitio web pero excluye solo los enlaces de ' .
+                            'la siguiente lista de dominios.'
                         ),
                     ],
                 ]);
@@ -79,14 +79,14 @@ $this->assign('content_title', __('Script de pagina completa'));
             'required' => true,
             'templateVars' => [
                 'help' => __(
-                        'Add each domain into a new domain. Also wildcard domains are allowed. Please check the following example:'
+                        'Agregue cada dominio a un nuevo dominio. También se permiten dominios comodín. Por favor, consulte el siguiente ejemplo:'
                     ) . "<br>mega.nz<br>*.zippyshare.com<br>depositfiles.com",
             ],
         ]);
         ?>
 
-        <p><?= __("Simply click on the below button then copy-and-paste the generated code below on to your " .
-                "webpage or blog and the links will be updated automatically!") ?></p>
+        <p><?= __("Simplemente haga clic en el botón de abajo, luego copie y pegue el código generado a " .
+                "continuación en su página web o blog y los enlaces se actualizarán automáticamente!") ?></p>
 
         <div class="form-group">
             <?= $this->Form->button(__('Generate'), ['class' => 'btn btn-primary']); ?>
