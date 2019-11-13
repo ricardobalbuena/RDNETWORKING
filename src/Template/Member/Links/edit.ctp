@@ -42,7 +42,7 @@ $this->assign('content_title', __('Edit Link: {0}', $link->alias));
 
         <?php if ((bool)$logged_user_plan->link_expiration) {
             echo $this->Form->control('expiration', [
-                'label' => __('Expiration date'),
+                'label' => __('Fecha de expiracion'),
                 'class' => 'form-control',
                 'type' => 'datetime',
                 'default' => null,

@@ -364,7 +364,7 @@
                     <li>
                         <a href="<?= $this->Url->build(['controller' => 'Users', 'action' => 'plans']); ?>">
                             <i class="fa fa-clock-o text-aqua"></i>
-                            <span><b><?= __("Expiration Date") ?></b><br>
+                            <span><b><?= __("Fecha de expiracion") ?></b><br>
                                 <?= $exp_date ?>
                                 <?php if (isset($logged_user->expiration) &&
                                     ($this->Time->isThisWeek($logged_user->expiration) || $this->Time->isPast($logged_user->expiration))

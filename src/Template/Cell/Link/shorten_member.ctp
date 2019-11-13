@@ -75,7 +75,7 @@ $this->Form->setTemplates([
             <div class="form-group">
                 <?=
                 $this->Form->control('expiration', [
-                    'label' => __('Expiration date'),
+                    'label' => __('Fecha de expiracion'),
                     'class' => 'form-control input-sm',
                     'type' => 'datetime',
                     'default' => null,
