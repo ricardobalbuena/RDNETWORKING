@@ -26,7 +26,7 @@ $this->assign('content_title', __('Soporte'));
 
         <?=
         $this->Form->control('subject', [
-            'label' => __('Subject'),
+            'label' => __('Asunto'),
             'class' => 'form-control',
             'type' => 'text'
         ]);
