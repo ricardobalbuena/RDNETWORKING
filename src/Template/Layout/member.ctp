@@ -199,7 +199,7 @@
                         <li><a href="<?php echo $this->Url->build([
                                 'controller' => 'Links',
                                 'action' => 'index',
-                            ]); ?>"><?= __('All Links') ?></a></li>
+                            ]); ?>"><?= __('Todos los enlaces') ?></a></li>
                         <li><a href="<?php echo $this->Url->build([
                                 'controller' => 'Links',
                                 'action' => 'hidden',
