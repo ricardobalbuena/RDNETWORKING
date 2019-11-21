@@ -2,9 +2,9 @@
 /**
  * @var \App\View\AppView $this
  */
-$this->assign('title', __('Bookmarklet'));
+$this->assign('title', __('Marketing'));
 $this->assign('description', '');
-$this->assign('content_title', __('Bookmarklet'));
+$this->assign('content_title', __('Marketing'));
 
 ?>
 
