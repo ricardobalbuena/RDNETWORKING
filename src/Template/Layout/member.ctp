@@ -249,7 +249,7 @@
                                 <li><a href="<?php echo $this->Url->build([
                                         'controller' => 'Tools',
                                         'action' => 'bookmarklet',
-                                    ]); ?>"><?= __('Bookmarklet') ?></a></li>
+                                    ]); ?>"><?= __('Contenido') ?></a></li>
                             <?php endif; ?>
                         </ul>
                     </li>
