@@ -171,7 +171,7 @@
             <br>
 
             <button type="button" class="btn btn-block btn-social btn-github btn-lg shorten-button" data-toggle="modal"
-                    data-target="#myModal"><i class="fa fa-paper-plane"></i> <span><?= __("New Shorten Link") ?></span>
+                    data-target="#myModal"><i class="fa fa-paper-plane"></i> <span><?= __("Acortar nuevo link") ?></span>
             </button>
 
             <br>
