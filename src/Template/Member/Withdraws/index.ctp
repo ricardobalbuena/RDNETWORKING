@@ -97,7 +97,7 @@ $withdrawal_methods = array_column_polyfill(get_withdrawal_methods(), 'name', 'i
                     <?php if ((bool)get_option('enable_referrals', 1)) : ?>
                         <th><?= $this->Paginator->sort('referral_earnings', __('Referral Earnings')) ?></th>
                     <?php endif; ?>
-                    <th><?= __('Total Amount') ?></th>
+                    <th><?= __('Monto Total') ?></th>
                     <th><?= __('Withdrawal Method') ?></th>
                     <th><?= __('Cuenta de Retiro') ?></th>
                 </tr>

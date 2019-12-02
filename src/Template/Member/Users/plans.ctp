@@ -104,7 +104,7 @@ $this->assign('content_title', __('Cambia de plan'));
                                             data-toggle="dropdown" aria-haspopup="true"
                                             aria-expanded="false">
                                         <?php if ($plan->id === $user->plan_id) : ?>
-                                            <?= __("Renew") ?>
+                                            <?= __("Renovar") ?>
                                         <?php else : ?>
                                             <?= __("Compra ahora") ?>
                                         <?php endif; ?>

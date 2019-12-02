@@ -369,7 +369,7 @@
                                 <?php if (isset($logged_user->expiration) &&
                                     ($this->Time->isThisWeek($logged_user->expiration) || $this->Time->isPast($logged_user->expiration))
                                 ) : ?>
-                                    - <?= __("Renew") ?>
+                                    - <?= __("Renovar") ?>
                                 <?php endif; ?>
                             </span>
                         </a>
