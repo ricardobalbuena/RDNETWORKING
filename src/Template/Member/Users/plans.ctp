@@ -83,7 +83,7 @@ $this->assign('content_title', __('Cambia de plan'));
                                             <?= __("-") ?>
                                         <?php endif; ?>
                                         <?php if ($plan->yearly_price > 0) : ?>
-                                            <?= display_price_currency($plan->yearly_price) . ' ' . __('/ Year') ?>
+                                            <?= display_price_currency($plan->yearly_price) . ' ' . __('/ Anual') ?>
                                         <?php endif; ?>
                                     <?php endif; ?>
                                 </strong>
