@@ -356,7 +356,7 @@
                     <li>
                         <a href="<?= $this->Url->build(['controller' => 'Users', 'action' => 'plans']); ?>">
                             <i class="fa fa-user-circle text-aqua"></i>
-                            <span><b><?= __("Current Plan") ?></b><br>
+                            <span><b><?= __("Plan actual") ?></b><br>
                                 <?= h($logged_user_plan->title) ?>
                             </span>
                         </a>
