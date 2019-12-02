@@ -331,7 +331,7 @@
                 <?php if ((bool)get_option('enable_premium_membership')) : ?>
                     <li>
                         <a href="<?php echo $this->Url->build(['controller' => 'Users', 'action' => 'plans']); ?>">
-                            <i class="fa fa-refresh"></i> <span><?= __('Change Your Plan') ?></span>
+                            <i class="fa fa-refresh"></i> <span><?= __('Cambia tu plan') ?></span>
                         </a>
                     </li>
                 <?php endif; ?>

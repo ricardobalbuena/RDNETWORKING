@@ -6,14 +6,14 @@
  */
 ?>
 <?php
-$this->assign('title', __('Change Your Plan'));
+$this->assign('title', __('Cambia de plan'));
 $this->assign('description', '');
-$this->assign('content_title', __('Change Your Plan'));
+$this->assign('content_title', __('Cambia de plan'));
 ?>
 
 <div class="box box-primary">
     <div class="box-header">
-        <h3 class="box-title"><i class="fa fa-refresh"></i> <?= __('Change Your Plan') ?></h3>
+        <h3 class="box-title"><i class="fa fa-refresh"></i> <?= __('Cambia de plan') ?></h3>
     </div><!-- /.box-header -->
     <div class="box-body">
 
@@ -106,7 +106,7 @@ $this->assign('content_title', __('Change Your Plan'));
                                         <?php if ($plan->id === $user->plan_id) : ?>
                                             <?= __("Renew") ?>
                                         <?php else : ?>
-                                            <?= __("Buy Now") ?>
+                                            <?= __("Compra ahora") ?>
                                         <?php endif; ?>
                                         <span class="caret"></span>
                                     </button>
@@ -123,7 +123,7 @@ $this->assign('content_title', __('Change Your Plan'));
 
                                         <?php if ($plan->yearly_price > 0) : ?>
                                             <li><?= $this->Form->postLink(display_price_currency($plan->yearly_price) .
-                                                    ' ' . __('Yearly'),
+                                                    ' ' . __('Anual'),
                                                     ['action' => 'PayPlan', $plan->id, 'y']); ?></li>
                                         <?php endif; ?>
                                     </ul>
