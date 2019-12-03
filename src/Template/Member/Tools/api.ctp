@@ -1,8 +1,10 @@
 <?php
 /**
  * @var \App\View\AppView $this
-  * @var \App\Form\ContactForm $contact
+ * @var \App\Form\ContactForm $contact
  */
+ ?>
+ <?php
 $this->assign('title', __('Reporta tus referidos'));
 $this->assign('description', '');
 $this->assign('content_title', __('Reporta tus referidos'));
