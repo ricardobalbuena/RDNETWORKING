@@ -3,18 +3,18 @@
  * @var \App\View\AppView $this
  * @var \App\Model\Entity\Invoice $invoice
  */
-$this->assign('title', __('Invoice #{0}', $invoice->id));
+$this->assign('title', __('Factura #{0}', $invoice->id));
 $this->assign('description', '');
-$this->assign('content_title', __('Invoice #{0}', $invoice->id));
+$this->assign('content_title', __('Factura #{0}', $invoice->id));
 ?>
 
 <?php
 $statuses = [
-    1 => __('Paid'),
-    2 => __('Unpaid'),
-    3 => __('Canceled'),
-    4 => __('Invalid Payment'),
-    5 => __('Refunded'),
+    1 => __('Pagado'),
+    2 => __('No Pagado'),
+    3 => __('Cancelado'),
+    4 => __('Forma de pago invalida'),
+    5 => __('Reembolsada'),
 ]
 ?>
 
@@ -48,7 +48,7 @@ $statuses = [
                 </tr>
             <?php endif; ?>
             <tr>
-                <td><?= __('Paid Date') ?></td>
+                <td><?= __('Fecha de pago') ?></td>
                 <td><?= display_date_timezone($invoice->paid_date) ?></td>
             </tr>
             <tr>
@@ -152,7 +152,7 @@ $statuses = [
             <?php endif; ?>
 
             <p class="text-center">
-                <?= $this->Form->button(__('Pay Invoice'), ['class' => 'btn btn-success btn-lg']); ?>
+                <?= $this->Form->button(__('Pagar Factura'), ['class' => 'btn btn-success btn-lg']); ?>
             </p>
 
             <?= $this->Form->end(); ?>

@@ -65,7 +65,7 @@ class UsersController extends AppMemberController
 
         $CurrentMonthDays = Cache::read('currentMonthDays_' . $auth_user_id . '_' . $date1 . '_' . $date2, '15min');
         if ($CurrentMonthDays === false) {
-            $sql = "SELECT 
+            $sql = "SELECT
                   CASE
                     WHEN Statistics.publisher_earn > 0
                     THEN
@@ -81,14 +81,14 @@ class UsersController extends AppMemberController
                     THEN
                       SUM(Statistics.publisher_earn)
                   END AS `publisher_earnings`
-                FROM 
-                  statistics Statistics 
-                WHERE 
+                FROM
+                  statistics Statistics
+                WHERE
                   (
-                    Statistics.created BETWEEN :date1 AND :date2 
+                    Statistics.created BETWEEN :date1 AND :date2
                     AND Statistics.user_id = {$auth_user_id}
-                  ) 
-                GROUP BY 
+                  )
+                GROUP BY
                   day";
 
             $stmt = $connection->prepare($sql);
@@ -97,7 +97,7 @@ class UsersController extends AppMemberController
             $stmt->execute();
             $views_publisher = $stmt->fetchAll('assoc');
 
-            $sql = "SELECT 
+            $sql = "SELECT
                   CASE
                     WHEN Statistics.referral_earn > 0
                     THEN
@@ -108,14 +108,14 @@ class UsersController extends AppMemberController
                     THEN
                       SUM(Statistics.referral_earn)
                   END AS `referral_earnings`
-                FROM 
-                  statistics Statistics 
-                WHERE 
+                FROM
+                  statistics Statistics
+                WHERE
                   (
-                    Statistics.created BETWEEN :date1 AND :date2 
+                    Statistics.created BETWEEN :date1 AND :date2
                     AND Statistics.referral_id = {$auth_user_id}
-                  ) 
-                GROUP BY 
+                  )
+                GROUP BY
                   day";
 
             $stmt = $connection->prepare($sql);
@@ -275,7 +275,7 @@ class UsersController extends AppMemberController
         $plan = $this->Users->Plans->findById($id)->first();
 
         $amount = $plan->yearly_price;
-        $period_name = __("Yearly");
+        $period_name = __("Membresia");
         if ($period === 'm') {
             $amount = $plan->monthly_price;
             $period_name = __("Monthly");
@@ -284,7 +284,7 @@ class UsersController extends AppMemberController
         $data = [
             'status' => 2, //Unpaid Invoice
             'user_id' => $this->Auth->user('id'),
-            'description' => __("{0} Premium Membership: {1}", [$period_name, $plan->title]),
+            'description' => __("{0} Premium Anual: {1}", [$period_name, $plan->title]),
             'type' => 1, //Plan Invoice
             'rel_id' => $plan->id, //Plan Id
             'payment_method' => '',
