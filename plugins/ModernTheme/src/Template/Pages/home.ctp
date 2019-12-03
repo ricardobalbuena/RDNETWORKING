@@ -90,7 +90,7 @@ $this->assign('content_title', get_option('site_name'));
                 <div class="col-sm-4 wow fadeInUp">
                     <div class="feature">
                         <div class="feature-img"><i class="ms-sprite ms-sprite-f3"></i></div>
-                        <h4 class="feature-heading"><?= __('{0}% Referral Bonus',
+                        <h4 class="feature-heading"><?= __('{0}% Bonus de referidos',
                                 h(get_option('referral_percentage'))) ?></h4>
                         <div
                             class="feature-content"><?= __('The {0} referral program is a great way to spread the word of this great service and to earn even more money with your short links! Refer friends and receive {1}% of their earnings for life!',
@@ -148,7 +148,7 @@ $this->assign('content_title', get_option('site_name'));
             <div class="col-sm-4 wow fadeInUp">
                 <div class="feature last">
                     <div class="feature-img"><i class="ms-sprite ms-sprite-f9"></i></div>
-                    <h4 class="feature-heading"><?= __('Support') ?></h4>
+                    <h4 class="feature-heading"><?= __('Soporte') ?></h4>
                     <div
                         class="feature-content"><?= __('A dedicated support team is ready to help with any questions you may have.') ?></div>
                 </div>
