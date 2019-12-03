@@ -21,11 +21,11 @@ $statuses = [
 <div class="box box-primary checkout-form">
     <div class="box-header with-border">
         <i class="fa fa-credit-card"></i>
-        <h3 class="box-title"><?= __('Invoice #{0}', $invoice->id) ?></h3>
+        <h3 class="box-title"><?= __('Factura #{0}', $invoice->id) ?></h3>
     </div>
     <div class="box-body">
 
-        <legend><?= __('Invoice Details') ?></legend>
+        <legend><?= __('Detalles de Factura') ?></legend>
 
         <table class="table table-hover table-striped">
             <tr>
