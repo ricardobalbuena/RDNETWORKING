@@ -92,7 +92,7 @@ $this->assign('content_title', __('Panel'));
                         <?= (!empty($total_views)) ? display_price_currency($total_earnings / $total_views * 1000) : 0 ?>
                     </h3>
 
-                    <p><?= __('Average CPM') ?></p>
+                    <p><?= __('Promedio CPM') ?></p>
                 </div>
                 <div class="icon">
                     <i class="fa fa-usd"></i>

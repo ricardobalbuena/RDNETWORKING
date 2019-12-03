@@ -63,7 +63,7 @@ $this->assign('og_image', $link->image);
                 </div>
 
 
-                <?= $this->Form->button(__('Click here to continue'), [
+                <?= $this->Form->button(__('Pulsa aqui para continuar'), [
                     'class' => 'btn btn-primary btn-captcha',
                     'id' => 'invisibleCaptchaShortlink',
                 ]); ?>
@@ -91,8 +91,7 @@ $this->assign('og_image', $link->image);
                         ) ?></p>
 
                     <h3><?= __('Shorten URLs and earn money') ?></h3>
-                    <p><?= __("Signup for an account in just 2 minutes. Once you've completed your registration'.
-                    'just start creating short URLs and sharing the links with your family and friends.") ?></p>
+                    <p><?= __("Regístrese para obtener una cuenta en solo 2 minutos. Una vez que haya completado su registro. Simplemente comience a crear URL cortas y comparta los enlaces con su familia y amigos.") ?></p>
 
                 </div>
 

@@ -3,18 +3,18 @@
  * @var \App\View\AppView $this
  * @var \App\Model\Entity\Invoice[]|\Cake\Collection\CollectionInterface $invoices
  */
-$this->assign('title', __('Manage Invoices'));
+$this->assign('title', __('Manejar Facturas'));
 $this->assign('description', '');
-$this->assign('content_title', __('Manage Invoices'));
+$this->assign('content_title', __('Manejar Facturas'));
 ?>
 
 <?php
 $statuses = [
-    1 => __('Paid'),
-    2 => __('Unpaid'),
-    3 => __('Canceled'),
-    4 => __('Invalid Payment'),
-    5 => __('Refunded')
+    1 => __('Pagada'),
+    2 => __('Sin Pagar'),
+    3 => __('Cancelada'),
+    4 => __('Forma de pago invalida'),
+    5 => __('Reembolsada')
 ]
 ?>
 
@@ -29,7 +29,7 @@ $statuses = [
                     <th><?= __('Description'); ?></th>
                     <th><?= $this->Paginator->sort('amount', __('Amount')); ?></th>
                     <th><?= $this->Paginator->sort('payment_method', __('Payment Method')); ?></th>
-                    <th><?= $this->Paginator->sort('paid_date', __('Paid date')); ?></th>
+                    <th><?= $this->Paginator->sort('paid_date', __('Fecha de pago')); ?></th>
                     <th><?= $this->Paginator->sort('created', __('Created')); ?></th>
                     <th><?php echo __('Actions') ?></th>
                 </tr>

@@ -302,7 +302,7 @@
                 ) : ?>
                     <li>
                         <a href="<?php echo $this->Url->build(['controller' => 'Invoices', 'action' => 'index']); ?>">
-                            <i class="fa fa-credit-card"></i> <span><?= __('Invoices') ?></span>
+                            <i class="fa fa-credit-card"></i> <span><?= __('Facturas') ?></span>
                         </a>
                     </li>
                 <?php endif; ?>
@@ -343,9 +343,9 @@
 
                 <?php
                 if ($logged_user_plan->id === 1) {
-                    $exp_date = __("Never");
+                    $exp_date = __("Nunca");
                 } else {
-                    $exp_date = __("Never");
+                    $exp_date = __("Nunca");
                     if (isset($logged_user->expiration)) {
                         $exp_date = $this->Time->nice($logged_user->expiration);
                     }
