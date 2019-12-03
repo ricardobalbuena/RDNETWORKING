@@ -275,7 +275,7 @@ class UsersController extends AppMemberController
         $plan = $this->Users->Plans->findById($id)->first();
 
         $amount = $plan->yearly_price;
-        $period_name = __("Membresia");
+        $period_name = __("Anual");
         if ($period === 'm') {
             $amount = $plan->monthly_price;
             $period_name = __("Monthly");
@@ -284,7 +284,7 @@ class UsersController extends AppMemberController
         $data = [
             'status' => 2, //Unpaid Invoice
             'user_id' => $this->Auth->user('id'),
-            'description' => __("{0} Premium Anual: {1}", [$period_name, $plan->title]),
+            'description' => __("{0} Membresia: {1}", [$period_name, $plan->title]),
             'type' => 1, //Plan Invoice
             'rel_id' => $plan->id, //Plan Id
             'payment_method' => '',
