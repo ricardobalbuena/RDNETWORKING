@@ -16,7 +16,7 @@ $this->assign('description', __('Register a new membership'));
 <?=
 $this->Form->control('username', [
     'label' => false,
-    'placeholder' => __('Username'),
+    'placeholder' => __('Usuario'),
     'class' => 'form-control'
 ])
 ?>
@@ -24,7 +24,7 @@ $this->Form->control('username', [
 <?=
 $this->Form->control('email', [
     'label' => false,
-    'placeholder' => __('Email'),
+    'placeholder' => __('Correo'),
     'class' => 'form-control'
 ])
 ?>
@@ -32,7 +32,7 @@ $this->Form->control('email', [
 <?=
 $this->Form->control('password', [
     'label' => false,
-    'placeholder' => __('Password'),
+    'placeholder' => __('Contraseña'),
     'class' => 'form-control'
 ])
 ?>
@@ -41,7 +41,7 @@ $this->Form->control('password', [
 $this->Form->control('password_compare', [
     'type' => 'password',
     'label' => false,
-    'placeholder' => __('Re-enter Password'),
+    'placeholder' => __('Escriba la contraseña otra vez'),
     'class' => 'form-control'
 ])
 ?>
