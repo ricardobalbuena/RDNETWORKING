@@ -179,7 +179,7 @@ $this->assign('content_title', get_option('site_name'));
                             <?= $totalLinks ?>
                         </div>
                         <div class="stat-text">
-                            <?= __("Total URLs") ?>
+                            <?= __("Total Links") ?>
                         </div>
                     </div>
                 </div>
