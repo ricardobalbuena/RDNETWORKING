@@ -24,7 +24,7 @@ $this->Form->setTemplates([
     $this->Form->control('url', [
         'label' => false,
         'type' => 'text',
-        'placeholder' => __('Your URL Here'),
+        'placeholder' => __('Tu link aqui'),
         'required' => 'required',
         'class' => 'form-control input-lg'
     ]);
