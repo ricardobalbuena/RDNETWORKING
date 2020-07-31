@@ -6373,7 +6373,7 @@ msgstr ""
 #: src/Template/Statistics/view_info.ctp:98
 #: src/Template/Tools/bookmarklet.ctp:117
 msgid "Domain"
-msgstr ""
+msgstr "Dominios"
 
 #: src/Template/Auth/Users/forgot_password.ctp:6
 msgid "Forgot Password"
@@ -6387,7 +6387,7 @@ msgstr "Introduzca su Email para restablecer la contraseña."
 #: src/Template/Auth/Users/forgot_password.ctp:46
 #: src/Template/Member/Users/change_password.ctp:31
 msgid "New Password"
-msgstr "nueva contraseña"
+msgstr "Nueva contraseña"
 
 #: src/Template/Auth/Users/forgot_password.ctp:54
 #: src/Template/Auth/Users/forgot_password.ctp:56
@@ -6405,7 +6405,7 @@ msgstr "Inicia sesión"
 
 #: src/Template/Auth/Users/signin.ctp:19
 msgid "Username or email address"
-msgstr ""
+msgstr "Usuario o Correo Electronico"
 
 #: src/Template/Auth/Users/signin.ctp:34
 msgid "Remember me"
@@ -6459,7 +6459,7 @@ msgstr ""
 
 #: src/Template/Auth/Users/signup.ctp:69
 msgid "Register"
-msgstr ""
+msgstr "Registrarse"
 
 #: src/Template/Auth/Users/signup.ctp:144
 msgid "I already have a membership"

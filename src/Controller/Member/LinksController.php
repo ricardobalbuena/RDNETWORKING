@@ -209,7 +209,7 @@ class LinksController extends AppMemberController
         $link->status = 2;
 
         if ($this->Links->save($link)) {
-            $this->Flash->success(__('The Link with alias: {0} has been hidden.', $alias));
+            $this->Flash->success(__('El link con el alias: {0} ha sido oculto.', $alias));
 
             return $this->redirect(['action' => 'index']);
         }
@@ -230,7 +230,7 @@ class LinksController extends AppMemberController
         $link->status = 1;
 
         if ($this->Links->save($link)) {
-            $this->Flash->success(__('The Link with alias: {0} has been unhidden.', $alias));
+            $this->Flash->success(__('El link con el alias: {0} ha sido desocultado.', $alias));
 
             return $this->redirect(['action' => 'hidden']);
         }

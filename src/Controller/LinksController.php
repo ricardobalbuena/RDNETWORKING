@@ -69,7 +69,7 @@ class LinksController extends FrontController
         $link_user_plan = get_user_plan($link->user_id);
 
         if ($link_user_plan->link_expiration && !empty($link->expiration) && $link->expiration->isPast()) {
-            throw new ForbiddenException(__('The link has been expired'));
+            throw new ForbiddenException(__('El link ha sido Expirado'));
         }
 
         $detector = new \Detection\MobileDetect();

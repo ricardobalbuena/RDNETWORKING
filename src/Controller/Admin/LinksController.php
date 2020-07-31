@@ -219,7 +219,7 @@ class LinksController extends AppAdminController
             $link = $this->Links->patchEntity($link, $this->getRequest()->getData());
 
             if ($this->Links->save($link)) {
-                $this->Flash->success(__('The Link has been updated.'));
+                $this->Flash->success(__('El link ha sido actualizado.'));
             } else {
                 //debug($link->getErrors());
                 $this->Flash->error(__('Oops! There are mistakes in the form. Please make the correction.'));
@@ -237,7 +237,7 @@ class LinksController extends AppAdminController
         }
 
         if ($this->hideLink($id)) {
-            $this->Flash->success(__('The Link has been hidden.'));
+            $this->Flash->success(__('El link ha sido ocultado.'));
         }
 
         return $this->redirect($this->referer());
@@ -264,7 +264,7 @@ class LinksController extends AppAdminController
         }
 
         if ($this->unhideLink($id)) {
-            $this->Flash->success(__('The Link has been unhidden.'));
+            $this->Flash->success(__('El link se ha desocultado.'));
         }
 
         return $this->redirect($this->referer());
@@ -291,7 +291,7 @@ class LinksController extends AppAdminController
         }
 
         if ($this->deactivateLink($id)) {
-            $this->Flash->success(__('The Link has been deactivated.'));
+            $this->Flash->success(__('El link ha sido desactivado.'));
         }
 
         return $this->redirect($this->referer());
@@ -318,7 +318,7 @@ class LinksController extends AppAdminController
         }
 
         if ($this->deleteLink($id, $views)) {
-            $this->Flash->success(__('The link has been deleted.'));
+            $this->Flash->success(__('El link ha sido borrado.'));
         }
 
         return $this->redirect($this->referer());
