@@ -31,7 +31,7 @@ $this->Form->control('password', [
 
 <?= $this->Form->control('remember_me', [
     'type' => 'checkbox',
-    'label' => __('Remember me'),
+    'label' => __('Recordarme'),
 ]) ?>
 
 

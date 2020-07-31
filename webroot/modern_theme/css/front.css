@@ -192,7 +192,7 @@ section h2.section-heading {
  */
 .navbar-default {
     font-family: 'Montserrat', sans-serif;
-    background-color: #1875a9;
+    background-color: #000000;
     border-color: transparent;
     text-transform: uppercase;
     padding: 10px 0;
@@ -236,7 +236,7 @@ section h2.section-heading {
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-    background-color: #1875a9;
+    background-color: #000000;
 }
 
 .navbar-default .navbar-toggle:hover,
@@ -327,7 +327,7 @@ section h2.section-heading {
     }
 
     .navbar-default.affix {
-        background-color: #1875a9;
+        background-color: #000000;
         padding: 10px 0;
     }
 
@@ -373,7 +373,7 @@ section h2.section-heading {
  * Header
  */
 header, .captcha-page #mainNav, .interstitial-page #mainNav, .banner-page #mainNav {
-    background-image: url(../img/header.jpg);
+    background-image: url(../img/headernew.jpg);
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
