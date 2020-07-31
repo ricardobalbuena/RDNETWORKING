@@ -6409,15 +6409,15 @@ msgstr ""
 
 #: src/Template/Auth/Users/signin.ctp:34
 msgid "Remember me"
-msgstr ""
+msgstr "Recordarme"
 
 #: src/Template/Auth/Users/signin.ctp:52 src/Template/Auth/Users/signup.ctp:77
 msgid "OR"
-msgstr ""
+msgstr "Ó"
 
 #: src/Template/Auth/Users/signin.ctp:57 src/Template/Auth/Users/signup.ctp:82
 msgid "Sign in with Facebook"
-msgstr ""
+msgstr "Iniciar Sección con Facebook"
 
 #: src/Template/Auth/Users/signin.ctp:78 src/Template/Auth/Users/signup.ctp:103
 msgid "Sign in with Twitter"
