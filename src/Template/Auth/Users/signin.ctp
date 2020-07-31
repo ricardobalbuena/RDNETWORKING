@@ -49,12 +49,12 @@ $this->Form->control('password', [
 <?= $this->Form->end() ?>
 
 <div class="social-auth-links text-center">
-    <p>- <?= __("OR") ?> -</p>
+    <p>- <?= __("O") ?> -</p>
 
     <?php if ((bool)get_option('social_login_facebook', false)) : ?>
         <?php
         echo $this->Form->postLink(
-            '<i class="fa fa-facebook"></i> ' . __("Sign in with Facebook"),
+            '<i class="fa fa-facebook"></i> ' . __("Iniciar Seccion con Facebook"),
             [
                 'prefix' => false,
                 'plugin' => 'ADmad/SocialAuth',
