@@ -388,7 +388,7 @@
         <section class="content-header">
             <h1><?= h($this->fetch('content_title')); ?></h1>
             <ol class="breadcrumb">
-                <li><a href="#"><i class="fa fa-dashboard"></i> <?= __('Dashboard') ?></a></li>
+                <li><a href="#"><i class="fa fa-dashboard"></i> <?= __('Panel de Control') ?></a></li>
                 <li class="active"><?= h($this->fetch('content_title')); ?></li>
             </ol>
         </section>

@@ -2100,8 +2100,8 @@ msgstr "Usuario invalido"
 #: src/Controller/Auth/UsersController.php:383
 msgid "Kindly check your email for reset password link."
 msgstr ""
-"Por Favor de revisar en su correo electrónico para el restablecimiento de su "
-"contraseñ."
+"Por favor revisar su correo electrónico para el restablecimiento de su "
+"contraseña."
 
 #: src/Controller/Auth/UsersController.php:387
 msgid "Unable to reset password."
@@ -6059,7 +6059,7 @@ msgstr ""
 #: src/Template/Member/Users/dashboard.ctp:11
 #: src/Template/Member/Users/dashboard.ctp:13
 msgid "Dashboard"
-msgstr "Dashboard"
+msgstr "Panel de Control"
 
 #: src/Template/Admin/Users/dashboard.ctp:46
 msgid "Owner Earnings"
@@ -6786,7 +6786,7 @@ msgstr "Acceso Inicio"
 
 #: src/Template/Install/finish.ctp:14
 msgid "Access Dashboard"
-msgstr "Acceso Dashboard"
+msgstr "Acceso al Panel de Control"
 
 #: src/Template/Install/index.ctp:5
 msgid "Installation: Welcome"
